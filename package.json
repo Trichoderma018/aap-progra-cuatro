@@ -4,7 +4,9 @@
   "description": "paguina de ejemplo del counter en react",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack server --mode development --open",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",

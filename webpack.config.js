@@ -2,7 +2,7 @@ const path = require("path");
 const HtmlWebPackPluguin = require("html-webpack-plugin");
 const { resolve } = require("dns");
 const { DEFAULT_EXTENSIONS } = require("@babel/core");
-//const { plugins } = require("@babel/preset-env/lib/plugins-compat-data");
+const { plugins } = require("@babel/preset-env/lib/plugins-compat-data");
 
 module.exports = {
     entry: './src/index.js', //punto de entrada pricipal de la aplicacion

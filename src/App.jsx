@@ -1,5 +1,5 @@
-import react from "react";
-import Counter from './components/Counter'
+import React from "react";
+import Counter from './components/Counter';
 import { Container, Typography } from "@mui/material";
 
 const App = () =>{
@@ -7,7 +7,7 @@ const App = () =>{
         <Container maxWidth="sm">
             <Typography variant="h3" component="h1" gutterBottom>
                 Contador
-                <Counter/>
+                <Counter />
             </Typography>
         </Container>
     )

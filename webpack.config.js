@@ -3,9 +3,6 @@ const path = require("path"); //se define una constante luego la libreria,
                               //Luego se usa el snipet
                               //Esto solo en node, en react es diferente
 const HtmlWebPackPluguin = require("html-webpack-plugin");
-const { resolve } = require("dns");
-const { DEFAULT_EXTENSIONS } = require("@babel/core");
-const { plugins } = require("@babel/preset-env/lib/plugins-compat-data");
 
 module.exports = {
     entry: './src/index.js', //punto de entrada pricipal de la aplicacion
